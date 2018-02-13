@@ -11,3 +11,10 @@ Drop all dlls from here ```bin/release``` to ```[your netCheat folder]/APIs/```
 ## Note
 
 Netcheat will read 65000 bytes in one request, so in the [API.cs](https://github.com/BISOON/netCheatAPI-for-PS4/blob/master/PS4API-NC/API.cs#L99) I just devided the number of requested bytes by 16384 to make sure the browser will not crash.
+
+
+<p align=center>
+  <img alt="Image1" src="https://gyazo.com/6632248f88b2106982d49d70ede0bfa9.png"/>
+  
+  <img alt="Image1" src="https://gyazo.com/4eca4a629a529b128081c8c3cfff919c.png"/>
+</p>
