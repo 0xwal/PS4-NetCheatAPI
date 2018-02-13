@@ -106,7 +106,7 @@ namespace PS4API_NC
             byte[] operatinalBytes = new byte[sizeForOperation];
             for (int i = 0; i < loop; i++)
             {
-                if (!PS4.GetMemory(address, ref operatinalBytes))
+                if (!PS4.GetMemory(address + (ulong)(i * sizeForOperation), ref operatinalBytes))
                     return false;
                 tmpBuffer.AddRange(operatinalBytes);
             }
