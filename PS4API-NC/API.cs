@@ -148,7 +148,7 @@ namespace PS4API_NC
                 frmIp.txtIp.Text = Properties.Settings.Default.ip;
                 frmIp.btnConnect.Click += (o, e) => { frmIp.Close(); frmIp.DialogResult = DialogResult.OK; };
 
-                frmIp.ShowDialog().ToString();
+                frmIp.ShowDialog();
                 Properties.Settings.Default.ip = frmIp.txtIp.Text;
                 Properties.Settings.Default.Save();
                 if (frmIp.DialogResult != DialogResult.OK)
