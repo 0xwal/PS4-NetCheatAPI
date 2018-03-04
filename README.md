@@ -1,11 +1,11 @@
 # netCheatAPI-for-PS4
-Netcheat API for PS4 4.05
+Netcheat API for PS4
 
 
 ## Installation
 
 Drop all dlls from here ```bin/release``` to ```[your netCheat folder]/APIs/```
-* You need PS4API server payload to use this, you can download it from here [PS4API.bin](https://github.com/BISOON/ps4-api-server/releases)
+* You need PS4API server payload to use this, you can download it from here [PS4API.bin](https://github.com/BISOON/ps4-api-server/releases) use corresponding update of PS4API.BIN
 * netCheat app you can download it from here [ncUpdateDir.zip](http://netcheat.gamehacking.org/ncUpdater/).
 
 ## Note
